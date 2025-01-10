@@ -10,7 +10,7 @@ import numpy as np
 import os
 
 # File path
-file_path = '/Users/siddhantjain/PycharmProjects/2024 IPL/Files/Batters.csv'
+file_path = '/Users/siddhantjain/PycharmProjects/Lab 3-2024 IPL/Files/Batters.csv'
 
 # Folder path for saving plots
 save_folder = os.path.join(os.path.dirname(file_path), 'Batter Graphs')

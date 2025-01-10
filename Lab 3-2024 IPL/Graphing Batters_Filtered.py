@@ -12,7 +12,7 @@ import numpy as np
 import os
 
 # File path
-file_path = '/Users/siddhantjain/PycharmProjects/2024 IPL/Files/Batters.csv'
+file_path = '/Users/siddhantjain/PycharmProjects/Lab 3-2024 IPL/Files/Batters.csv'
 
 # Folder path for saving plots
 base_save_folder = os.path.join(os.path.dirname(file_path), 'Batter Graphs')
@@ -59,10 +59,10 @@ def plot_graph_and_regression(x_col, y_col, xlabel, ylabel, file_suffix):
     print(f"Plot saved to: {plot_path}")
 
 # Plot for Winning Bid (cr) vs Runs
-plot_graph_and_regression(y_col='Runs', x_col='Winning Bid (cr)', ylabel='Runs', xlabel='Winning Bid (cr)', file_suffix='Batter: Winning_Bid_vs_Runs')
+plot_graph_and_regression(y_col='Runs', x_col='Winning Bid (cr)', ylabel='Runs', xlabel='Winning Bid (cr)', file_suffix='Filter:Winning_Bid_vs_Runs')
 
 # Plot for Winning Bid (cr) vs SR
-plot_graph_and_regression(y_col='SR', x_col='Winning Bid (cr)', ylabel='SR', xlabel='Winning Bid (cr)', file_suffix='Batter: Winning_Bid_vs_SR')
+plot_graph_and_regression(y_col='SR', x_col='Winning Bid (cr)', ylabel='SR', xlabel='Winning Bid (cr)', file_suffix='Filter:Winning_Bid_vs_SR')
 
 # Plot for Winning Bid (cr) vs Avg
-plot_graph_and_regression(y_col='Avg', x_col='Winning Bid (cr)', ylabel='Avg', xlabel='Winning Bid (cr)', file_suffix='Batter: Winning_Bid_vs_Avg')
+plot_graph_and_regression(y_col='Avg', x_col='Winning Bid (cr)', ylabel='Avg', xlabel='Winning Bid (cr)', file_suffix='Filter:Winning_Bid_vs_Avg')

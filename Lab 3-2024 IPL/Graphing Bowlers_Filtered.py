@@ -9,7 +9,7 @@ import numpy as np
 import os
 
 # File path
-file_path = '/Users/siddhantjain/PycharmProjects/2024 IPL/Files/Bowlers.csv'
+file_path = '/Users/siddhantjain/PycharmProjects/Lab 3-2024 IPL/Files/Bowlers.csv'
 
 # Folder path for saving plots
 base_folder_path = os.path.join(os.path.dirname(file_path), 'Bowler Graphs')
